@@ -30,6 +30,7 @@ const CartScreen = ({ match, location, history }) => {
     }
 
     const checkoutHandler = () => {
+        // goes to shipping page ... redirects to sign in if not signed in
         history.push('/login?redirect=shipping')
     }
 
